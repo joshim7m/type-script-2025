@@ -13,3 +13,12 @@ console.log(typeof json); // number
 let v = true;
 v = 'string';
 Math.round(v);
+// Union type | (OR)
+let code = 'log';
+code = 3.143;
+// Casting
+let greet = 'Hi';
+let greetPeople = greet + ' There!';
+//Using <> works the same as casting with as
+let thank = 'Thank';
+let thankPeople = thank + ' you';
